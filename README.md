@@ -4,3 +4,6 @@ a graph on how many pages you have read per day, or you can do a quick calculati
 
 # This is my first java application
 It's really bad code. I just wanted to get a taste of Java. 
+
+# Screenshots
+[Imgur](http://i.imgur.com/KYvt7Pb.png)
