@@ -1,0 +1,77 @@
+.root {
+    -fx-background-image: url("Texture.png");
+}
+.root-mybooks{
+    -fx-background-image: inherit;
+    -fx-background-color: #454545;
+}
+.button {
+    -fx-background-color: #343434;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 3;
+}
+#button-highlight{
+    -fx-background-color: linear-gradient(#454545, #54524e);
+    -fx-border-color: #e9ff00;
+    -fx-text-fill: #fff8f3;
+}
+#button-regular{
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
+.button-exit{
+    -fx-background-color: #801600;
+    -fx-text-fill: rgba(255, 255, 255, 1);
+    -fx-font-size: 14;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 3;
+}
+#exit-button-small{
+    -fx-font-size: 12;
+}
+.text-field{
+    -fx-background-color: #454545;
+    -fx-text-fill: white;
+    -fx-max-width: 125pt;
+    -fx-border-color: white;
+    -fx-font-size: 12pt;
+}
+#text-field-irregular{
+    -fx-max-width: 100;
+}
+#text-field-tog{
+    -fx-border-color: #801600;
+}
+#text-field-selected{
+    -fx-border-width: 3px;
+    -fx-border-color: #e9ff00;
+}
+#text-right-selected{
+    -fx-border-width: 2px;
+    -fx-max-width: 100;
+    -fx-border-color: #e9ff00;
+}
+.label{
+    -fx-text-fill: white;
+}
+.date-picker-popup .month-year-pane {
+    -fx-padding: 0.6em 0.5em .65em 0.5em;
+    -fx-background-color: linear-gradient(#5a5a5a, #394953);
+    -fx-background-insets: 0 0 0 0, 0 0 1 0;
+}
+#split-solid{
+    -fx-background-color: #282828;
+}
+.progress-indicator .percentage {
+    -fx-fill: #ffffff;
+}
+.table-view .label {
+    -fx-text-fill: black;
+}
+.progress-bar{
+    -fx-accent: darkgreen;
+}
+.button :pressed{
+    -fx-background-color: green;
+}

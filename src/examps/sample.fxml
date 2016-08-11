@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examps.Controller">
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <DatePicker fx:id="datePicker" onAction="#datePickerOnAction" promptText="Set Goal Date" showWeekNumbers="true" />
+            <Label fx:id="showDiff" text="Label" />
+            <Label fx:id="timer" text="0" />
+            <Button mnemonicParsing="false" onAction="#startTimer" text="Start" />
+            <Button mnemonicParsing="false" onAction="#stopTimer" text="Stop" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

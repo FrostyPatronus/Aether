@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="363.0" prefWidth="498.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.media.AddPageControl">
+   <bottom>
+      <HBox alignment="CENTER" spacing="20.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+   <effect>
+      <InnerShadow choke="0.64" color="#0000002b" height="255.0" radius="127.0" width="255.0" />
+   </effect>
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="5.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pages read today:">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Text>
+            <Label fx:id="labelPrompt">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textField" alignment="CENTER" maxWidth="70.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Region prefHeight="52.0" prefWidth="498.0" />
+            <Button fx:id="addBook" mnemonicParsing="false" onAction="#addBook" onMouseEntered="#mouseHover" onMouseExited="#mouseExit" stylesheets="@CSS.css" text="Add!">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <BorderPane.margin>
+            <Insets top="25.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+</BorderPane>
