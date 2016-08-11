@@ -6,4 +6,4 @@ a graph on how many pages you have read per day, or you can do a quick calculati
 It's really bad code. I just wanted to get a taste of Java. 
 
 # Screenshots
-[Imgur](http://i.imgur.com/KYvt7Pb.png)
+![Alt tag](http://i.imgur.com/KYvt7Pb.png)
